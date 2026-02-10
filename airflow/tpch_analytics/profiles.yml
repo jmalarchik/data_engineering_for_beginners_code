@@ -4,7 +4,7 @@ tpch_analytics:
     local:
         type: spark
         method: session
-        schema: analytics
+        schema: tpch_analytics
         host: localhost                           # not used, but required by `dbt-core`
       
     #   type: spark
